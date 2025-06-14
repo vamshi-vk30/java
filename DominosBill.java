@@ -1,10 +1,10 @@
 public class DominosBill {
     public static void main(String[] args) {
         double pizzaPrice = 399;
-        int quantity = 2;
+        int q = 2;
         double discountRate = 20;
 
-        double totalBill = pizzaPrice * quantity;
+        double totalBill = pizzaPrice * q;
         double discountAmount = (discountRate / 100) * totalBill;
         double finalAmount = totalBill - discountAmount;
 
